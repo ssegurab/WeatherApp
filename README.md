@@ -1,4 +1,4 @@
-#Try the WeatherApp on this webpage: https://ssegurab.github.io/WeatherApp/
+# Try the WeatherApp on this webpage: https://ssegurab.github.io/WeatherApp/
 
 ## Getting Started with Create React App
 

@@ -49,7 +49,7 @@ const Card = ({weather, forecast, loadingData, showData}) =>{
                                 <div className="card-weather col-md-4">
                                     <h3 className="card-title">{weather.name}</h3>
                                     <p className="card-date">{date}</p>
-                                    <p className="card-hour">{hour.substring(0, 4) + 'h'}</p>
+                                    <p className="card-hour">{hour.substring(0, 5) + 'h'}</p>
                                     <h1 className="card-temp">{(weather.main.temp - 273.15).toFixed(1)}ºC</h1>
                                     <p className="card-desc"><img src={iconUrl} alt="icon"/>{weather.weather[0].description}</p>
                                     <img src="https://cdn.pixabay.com/photo/2019/12/24/12/31/berlin-4716680_960_720.jpg" className="card-img img-fluid rounded-start" alt="city"></img>

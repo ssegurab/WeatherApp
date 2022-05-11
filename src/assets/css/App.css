@@ -1,0 +1,97 @@
+body{
+  /* background-color: #2F3544; */
+  background-image: url(../img/background_weather_api_01.jpg);
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+}
+
+.input-group{
+  width: 70%;
+  opacity: 0.8;
+  
+}
+
+.form-control{
+  border-radius: 0.5rem;
+}
+
+.btn{
+  border-radius: 0.5rem;
+}
+
+.card{
+  max-width: 70%;
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
+
+.card-weather{
+  position: relative;
+  /* width: 33.3%; */
+}
+
+.card-title{
+  /* position: absolute;
+  padding-left: 50%;
+  text-align: center;
+  padding-top: 20px; */
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.card-date{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.card-hour{
+  position: absolute;
+  top: 110px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.card-temp{
+  position: absolute;
+  top: 170px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 50px;
+}
+
+.card-desc{
+  position: absolute;
+  top: 220px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.card-img{
+  opacity: 1;
+}
+
+/* .footer{
+  position: absolute;
+  top: 70vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+} */

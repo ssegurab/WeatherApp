@@ -19,7 +19,7 @@ const WeatherPanel = () => {
     const [location, setLocation] = useState("");
 
     const getLocation = async(loc) => {
-        setLoading(true);git
+        setLoading(true);
         setLocation(loc);
 
         //Weather
